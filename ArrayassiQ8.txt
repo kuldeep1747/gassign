@@ -1,0 +1,24 @@
+package Day7;
+//8 Write a Java program to test the equality of two arrays
+public class ArrayassiQ8 {
+
+	public static void main(String[] args) {
+		int k[]= {1,4,5,6,3,2};
+		int l[]= {1,4,5,6,3,2,3};
+		int p=k.length;
+		int count=0;
+		int i;
+		for(i=0;i<p;i++)
+		{
+			if(k[i]==l[i])
+				count++;
+		}
+	if(count>0)
+		System.out.println("two arrays equal");
+	else 
+		System.out.println("not equal");
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package Day7;
+import java.util.*;
+public class Arrayex5 {
+	public static void main(String args[])
+	{
+		Scanner s=new Scanner(System.in);
+		
+			int i;	
+		int k[]=new int [5];
+		for( i=0;i<5;i++)
+			{
+			System.out.println("enter number");
+			
+		k[i]=s.nextInt();
+			}
+		for (int j=0;j<k.length;j++)
+		System.out.println(k[i]);
+	}
+}
